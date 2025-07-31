@@ -65,19 +65,19 @@ Pada penggunaan pertama, Cilok akan meminta konfigurasi:
 
 ### Example Interaction
 ```
-🍡 Cilok > tampilkan detail lokasi transcosmos indonesia
+🍡 Cilok > tampilkan detail lokasi mall ambasador indonesia
 
 🤖 AI sedang berpikir keras mencari lokasi...
 
 🔍 Attempt 1/3: Searching with AI intelligence...
-🤖 AI suggests searching for: Transcosmos Indonesia, PT Transcosmos Indonesia, Transcosmos Jakarta
-✅ Found location: PT Transcosmos Indonesia
+🤖 AI suggests searching for: mall ambasador Indonesia, PT mall ambasador Indonesia, mall ambasador Jakarta
+✅ Found location: PT mall ambasador Indonesia
 
 🎉 Berhasil ditemukan setelah 2 percobaan!
 
 📍 DETAIL LOKASI
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🏢 PT Transcosmos Indonesia
+🏢 PT mall ambasador Indonesia
 📮 Jl. TB Simatupang No.26, Jakarta Selatan, DKI Jakarta
 🎯 Koordinat: -6.2608, 106.7884
 🏷️  Kategori: office, corporate
@@ -88,7 +88,7 @@ Pada penggunaan pertama, Cilok akan meminta konfigurasi:
 ### Location Search
 ```bash
 🍡 Cilok > tampilkan detail lokasi Monas
-🍡 Cilok > dimana lokasi Transcosmos Indonesia?
+🍡 Cilok > dimana lokasi mall ambasador Indonesia?
 🍡 Cilok > alamat lengkap Grand Indonesia
 ```
 
@@ -244,7 +244,7 @@ cilok
 ```bash
 # Test specific functions
 🍡 Cilok > debug                    # Enable debug mode
-🍡 Cilok > test transcosmos         # Test location search
+🍡 Cilok > test mall ambasador         # Test location search
 🍡 Cilok > status                   # Check service status
 ```
 
