@@ -1,18 +1,48 @@
 {
-  "name": "cilok",
+  "name": "cilok.js",
   "version": "1.0.0",
-  "description": "AI-powered location toolkit CLI agent with free map alternatives",
+  "description": "AI-powered location toolkit CLI agent with intelligent search and free map alternatives",
   "main": "index.js",
   "bin": {
     "cilok": "./bin/cilok.js"
   },
   "scripts": {
     "start": "node bin/cilok.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/cilok.js",
+    "link": "npm link",
+    "unlink": "npm unlink -g cilok.js"
   },
-  "keywords": ["ai", "location", "cli", "maps", "coordinates", "openstreetmap", "nominatim"],
-  "author": "Cloud-Dark",
+  "keywords": [
+    "ai", 
+    "location", 
+    "cli", 
+    "maps", 
+    "coordinates", 
+    "openstreetmap", 
+    "nominatim",
+    "geocoding",
+    "navigation",
+    "indonesia",
+    "location-toolkit",
+    "smart-search"
+  ],
+  "author": {
+    "name": "Cloud-Dark",
+    "url": "https://github.com/Cloud-Dark"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloud-Dark/cilok.git"
+  },
+  "homepage": "https://github.com/Cloud-Dark/cilok#readme",
+  "bugs": {
+    "url": "https://github.com/Cloud-Dark/cilok/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "axios": "^1.6.0",
     "chalk": "^4.1.2",
@@ -23,5 +53,8 @@
     "ora": "^5.4.1",
     "boxen": "^5.1.2",
     "node-fetch": "^2.6.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

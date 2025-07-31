@@ -36,7 +36,7 @@ Cilok adalah AI agent berbasis CLI yang menggunakan kecerdasan buatan untuk memb
 
 ### Global Installation
 ```bash
-npm install -g cilok
+npm install -g cilok.js
 ```
 
 ### Local Development
