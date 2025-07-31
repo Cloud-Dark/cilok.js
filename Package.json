@@ -1,6 +1,6 @@
 {
   "name": "cilok.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI-powered location toolkit CLI agent with intelligent search and free map alternatives",
   "main": "./bin/cilok.js",
   "bin": {
