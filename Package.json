@@ -1,10 +1,10 @@
 {
   "name": "cilok.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered location toolkit CLI agent with intelligent search and free map alternatives",
-  "main": "index.js",
+  "main": "./bin/cilok.js",
   "bin": {
-    "cilok": "./bin/cilok.js"
+    "cilok": "bin/cilok.js"
   },
   "scripts": {
     "start": "node bin/cilok.js",
@@ -14,12 +14,12 @@
     "unlink": "npm unlink -g cilok.js"
   },
   "keywords": [
-    "ai", 
-    "location", 
-    "cli", 
-    "maps", 
-    "coordinates", 
-    "openstreetmap", 
+    "ai",
+    "location",
+    "cli",
+    "maps",
+    "coordinates",
+    "openstreetmap",
     "nominatim",
     "geocoding",
     "navigation",
@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cloud-Dark/cilok.git"
+    "url": "git+https://github.com/Cloud-Dark/cilok.git"
   },
   "homepage": "https://github.com/Cloud-Dark/cilok#readme",
   "bugs": {
@@ -53,8 +53,5 @@
     "ora": "^5.4.1",
     "boxen": "^5.1.2",
     "node-fetch": "^2.6.7"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
