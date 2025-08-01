@@ -1,3 +1,5 @@
+<img width="2048" height="1342" alt="image" src="https://github.com/user-attachments/assets/249070ae-1516-4668-bcb6-ac8933fddaf3" />
+
 # 🍡 Cilok - AI Location Toolkit
 
 > **Smart CLI Agent for Intelligent Location Discovery**
